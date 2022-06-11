@@ -15,7 +15,7 @@ public class Config {
 	public Member member1() {
 		// Setter Injection (Setter 메서드를 이용한 의존성 주입)
 		Member member1 = new Member();
-		member1.setName("홍길동");
+		member1.setName("김갑진");
 		member1.setNickname("도사");
 		member1.setPrinter(new PrinterA());
 		
